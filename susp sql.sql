@@ -23,3 +23,38 @@ ON c.region_name = v.region_name
 GROUP BY c.region_name
 ORDER BY Post_COVID_FSM_Diff DESC
 LIMIT 15
+
+
+
+WITH CTE_fsm AS (
+    SELECT
+        c.region_code,
+        c.region_name,
+        ROUND(AVG(CASE WHEN c.characteristic = 'FSM - Eligible' AND c.time_period < 201920 THEN c.perm_excl ELSE NULL END),1) AS pre_covid_fsm_eligible,
+        ROUND(AVG(CASE WHEN c.characteristic = 'FSM - Not eligible' AND c.time_period < 201920 THEN c.perm_excl ELSE NULL END),1) AS pre_covid_fsm_not_eligible,
+        ROUND(AVG(CASE WHEN c.characteristic = 'FSM - Eligible' AND c.time_period > 201920 THEN c.perm_excl ELSE NULL END),1) AS post_covid_fsm_eligible,
+        ROUND(AVG(CASE WHEN c.characteristic = 'FSM - Not eligible' AND c.time_period > 201920 THEN c.perm_excl ELSE 0 END),1) AS post_covid_fsm_not_eligible
+    FROM characteristics_excl2 AS c
+    WHERE c.region_name IS NOT NULL
+    GROUP BY c.region_code, c.region_name
+),
+vacancy_data AS (
+    SELECT
+        v.region_code,
+        ROUND(AVG(CASE WHEN v.time_period > 201920 AND v.rate > 0 THEN v.rate ELSE NULL END),1) AS post_covid_vacancies
+    FROM school_vacancy_data AS v
+    GROUP BY v.region_code
+)
+SELECT
+    fsm.region_code,
+    fsm.region_name,
+    fsm.pre_covid_fsm_eligible - fsm.pre_covid_fsm_not_eligible AS pre_covid_fsm_diff,
+    fsm.post_covid_fsm_eligible - fsm.post_covid_fsm_not_eligible AS post_covid_fsm_diff,
+    vd.post_covid_vacancies
+FROM CTE_fsm AS fsm
+JOIN vacancy_data AS vd
+ON fsm.region_code = vd.region_code
+ORDER BY post_covid_vacancies DESC
+LIMIT 10;
+
+
