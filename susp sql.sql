@@ -26,7 +26,8 @@ LIMIT 15
 
 
 
-WITH CTE_fsm AS (
+-- Common Table Expression for showing differences in FSM suspensions vs non-FSM suspensions
+WITH CTE2_fsm AS (
     SELECT
         c.region_code,
         c.region_name,
@@ -38,23 +39,26 @@ WITH CTE_fsm AS (
     WHERE c.region_name IS NOT NULL
     GROUP BY c.region_code, c.region_name
 ),
-vacancy_data AS (
+--  Common Table Expression for showing differences in TA numbers by region
+ta_data AS (
     SELECT
-        v.region_code,
-        ROUND(AVG(CASE WHEN v.time_period > 201920 AND v.rate > 0 THEN v.rate ELSE NULL END),1) AS post_covid_vacancies
-    FROM school_vacancy_data AS v
-    GROUP BY v.region_code
+        s.region_code,
+         ROUND(ROUND(AVG(CASE WHEN CAST(time_period AS INT) > 202021 THEN hc_teaching_assistants END), 1) / 
+    	 ROUND(AVG(CASE WHEN CAST(time_period AS INT) > 202021 THEN number_schools END), 1),1) AS TAs_by_school
+    FROM school_support_data2 AS s
+    GROUP BY s.region_code
 )
 SELECT
     fsm.region_code,
     fsm.region_name,
     fsm.pre_covid_fsm_eligible - fsm.pre_covid_fsm_not_eligible AS pre_covid_fsm_diff,
     fsm.post_covid_fsm_eligible - fsm.post_covid_fsm_not_eligible AS post_covid_fsm_diff,
-    vd.post_covid_vacancies
-FROM CTE_fsm AS fsm
-JOIN vacancy_data AS vd
-ON fsm.region_code = vd.region_code
-ORDER BY post_covid_vacancies DESC
-LIMIT 10;
+    TAs_by_school
+FROM CTE2_fsm AS fsm
+JOIN ta_data AS ta
+ON fsm.region_code = ta.region_code
+ORDER BY TAs_by_school DESC;
+
+
 
 
