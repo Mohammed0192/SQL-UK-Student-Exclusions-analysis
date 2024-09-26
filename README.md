@@ -41,17 +41,20 @@ The data shows a significant North-South regional divide in the average number o
 Further detailed regional analysis will follow this section.
 
 # Insights Deep Dive
-### Average number of GCSE students being permanently excluded:
+### Pre-COVID signs of a North-South Divide:
 
-* **North-South Divide in exclusion rates started before the pandemic for GCSE students.** From 2016-2019, the number of GCSE students being permanently excluded from school  
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **North-South Divide in exclusion rates started before the pandemic for GCSE students.** From 2016-2019, the number of GCSE students being permanently excluded from school in North England was on the rise, whereas the South saw a gradual decline in exclusion rates leading up to 2019-20 - with exception of the South West of England.
+![Screenshot 2024-09-26 180954](https://github.com/user-attachments/assets/42204e7a-fe1d-4e58-bf50-50ba2b0ceb83)
+![Screenshot 2024-09-26 181032](https://github.com/user-attachments/assets/4d1537c1-2667-42f8-a9ac-979b46b75d8b)
 
-![Screenshot 2024-09-26 175636](https://github.com/user-attachments/assets/e580d7b3-9cdd-4bce-8d03-e0da136823a1)
+  
+* **London saw the most improvement pre-COVID and the least increase in GCSE exclusions post-COVID.** Inner London had recovered best from COVID when regulating exclusions of GCSE students.
+  
+* **Most exclusion rates shot up post-COVID at similar rates.** Except the East of England where schools excluding higher numbers of GCSE students pre-COVID managed to stabilize post-2020. All other regions saw a rise in exclusions post-2020.
+  
+ **Schools in Inner London saw lower GCSE exclusion rates post-COVID than Outer London.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+ 
+  ![Screenshot 2024-09-26 222838](https://github.com/user-attachments/assets/5d62b583-8189-4d1d-922a-1877efd5f3d3)
 
 
 ### Category 2:
