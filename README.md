@@ -23,7 +23,7 @@ The companies main database structure as seen below consists of four tables: tab
 - **Table 1:** Suspensions/Exclusions data table which includes information on number of permanent exclusions 'perm_excl' and the identity indicators of students (e.g. ethnicity, age and free school meal eligibility) across time and region.
 - **Table 2:** Data table showing teaching assistant numbers, headcount of teaching assistants and the number of schools across time and region
 
-[Entity Relationship Diagram here]
+![History](https://github.com/user-attachments/assets/0a539a1b-491a-4b9e-a0f1-7c4733afd4df)
 
 
 
