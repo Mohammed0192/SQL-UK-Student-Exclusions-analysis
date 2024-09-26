@@ -59,6 +59,20 @@ JOIN ta_data AS ta
 ON fsm.region_code = ta.region_code
 ORDER BY TAs_by_school DESC;
 
+--exclusion analysis based on year group
+
+    SELECT region_code, time_period , region_name,
+           ROUND(AVG(CASE WHEN characteristic BETWEEN 7 AND 10 AND perm_excl > 0 THEN perm_excl ELSE NULL END),1) AS Prim_Excl,
+		   ROUND(AVG(CASE WHEN characteristic BETWEEN 11 AND 12 AND perm_excl > 0 THEN perm_excl ELSE NULL END),1) AS Year7_8_Excl,
+		   ROUND(AVG(CASE WHEN characteristic BETWEEN 12 AND 13 AND perm_excl > 0  THEN perm_excl ELSE NULL END),1) AS Year8_9_Excl,
+		   ROUND(AVG(CASE WHEN characteristic BETWEEN 14 AND 15 AND perm_excl > 0 THEN perm_excl ELSE NULL END),1) AS Year9_10_Excl,
+		   ROUND(AVG(CASE WHEN characteristic BETWEEN 15 AND 16 AND perm_excl > 0 THEN perm_excl ELSE NULL END),1) AS Year10_11_Excl,
+		   ROUND(AVG(CASE WHEN characteristic >16 AND perm_excl > 0 THEN perm_excl ELSE NULL END),1) AS Over16_Excl
+    FROM characteristicd
+	WHERE region_name IS NOT NULL
+    GROUP BY time_period, region_name, region_code
+
+
 
 
 
