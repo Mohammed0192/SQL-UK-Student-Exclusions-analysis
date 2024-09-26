@@ -1,7 +1,7 @@
 # Project Background
-The Department for Education has yet commit policies addressing the alarming growth in UK student suspensions across primary and secondary education. Since students have returned to in-person education post-2020, schools across the UK have been issuing suspensions and permenant exclusions exponentially. The Department for Education have released census based data on suspensions/exclusions and school workforce size for regions across the UK.
+The Department for Education has yet commit policies addressing the alarming** growth in UK student suspensions across primary and secondary education**. Since students have returned to in-person education post-2020, schools across the UK have been issuing suspensions and permenant exclusions exponentially. The Department for Education have released census based data on suspensions/exclusions and school workforce size for regions across the UK.
 
-The dominant theory is that teachers and staff are underequipped to handle poorly socialised children returning to mainstream education. This project analyses the UK education census data from 2016 - 2023 to understand what key factors dictate differences in exclusion rates across the UK after the 2019-20 academic year.
+This project analyses the UK education census data from 2016 - 2023 to understand **what key factors dictate differences in exclusion rates across the UK** after the 2019-20 academic year.
 
 Insights and recommendations are provided on the following key areas:
 
@@ -29,18 +29,21 @@ The companies main database structure as seen below consists of four tables: tab
 
 # Executive Summary
 
+![image](https://github.com/user-attachments/assets/f4f06d9b-640c-47cb-9634-adafa04d25f8)
+
 ### Overview of Findings
-
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
-
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+The data shows a significant North-South regional divide in the average number of students being excluded from who are eligble for free school meals (FSM). The gap between FSM and non-FSM students being permanently excluded from school has also widened significantly after COVID with FSM students being excluded at a much higher rate, again this gap is wider in North England compared to the south. Furthermore, the number of teaching assistants per school seems to be one driver of this north-south divide in exclusions, with fewer teaching assistants per school disproportionately effecting FSM students.
 
 
+![Screenshot 2024-09-26 172246](https://github.com/user-attachments/assets/be14c657-c673-4fa0-9840-28fe21bd9f16)
+![Screenshot 2024-09-26 172009](https://github.com/user-attachments/assets/e42d9cc1-990b-4518-896e-ef55b2191a37)
+
+Further detailed regional analysis will follow this section.
 
 # Insights Deep Dive
-### Category 1:
+### Average number of GCSE students being permanently excluded:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **North-South Divide in exclusion rates started before the pandemic for GCSE students.** From 2016-2019, the number of GCSE students being permanently excluded from school  
   
 * **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -48,7 +51,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 1]
+![Screenshot 2024-09-26 175636](https://github.com/user-attachments/assets/e580d7b3-9cdd-4bce-8d03-e0da136823a1)
 
 
 ### Category 2:
@@ -61,7 +64,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 2]
+![Screenshot 2024-09-26 175712](https://github.com/user-attachments/assets/c1be4e3d-f4e8-4ef8-bd3b-e5c5037ba345)
 
 
 ### Category 3:
