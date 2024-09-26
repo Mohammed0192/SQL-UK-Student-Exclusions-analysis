@@ -20,10 +20,8 @@ Targeted SQL queries regarding various business questions can be found here [lin
 # Data Structure & Initial Checks
 
 The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+- **Table 1:** Suspensions/Exclusions data table which includes information on number of permanent exclusions 'perm_excl' and the identity indicators of students (e.g. ethnicity, age and free school meal eligibility) across time and region.
+- **Table 2:** Data table showing teaching assistant numbers, headcount of teaching assistants and the number of schools across time and region
 
 [Entity Relationship Diagram here]
 
