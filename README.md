@@ -62,15 +62,14 @@ Further detailed regional analysis will follow this section.
   ![Screenshot 2024-09-26 222838](https://github.com/user-attachments/assets/5d62b583-8189-4d1d-922a-1877efd5f3d3)
 
 
-### Category 2:
+### KS3 student exclusions:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **KS3 student exclusions recovered worst from COVID in the North East.** In 2016-17, schools in the North East had some of the lowest average exclusions but post-COVID they joined other northern regions in having some of the highest
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **KS3 student exclusions recovered best in London post-COVID** KS3 student exclusions in London returned to normal levels post-COVID .
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **East Midlands student exclusions dipped least during COVID.** During the COVID lockdown period, exclusion numbers in the East Midlands dipped least during 2020-2021 which could signify a more abrupt return to in-person lessons.
+
 
 ![Screenshot 2024-09-26 175712](https://github.com/user-attachments/assets/c1be4e3d-f4e8-4ef8-bd3b-e5c5037ba345)
 
@@ -104,13 +103,13 @@ Further detailed regional analysis will follow this section.
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights, I would recommend policy analysts to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Investing in quality support staff such as teaching assistants over quantity. **By investing in more quality training for teaching assistants, regions struggling with school exclusions would not need to surpass the average .**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Strategic lessons should be taken from schools in East England. **Schools in East England saw exclusion rates recover quickest post-COVID compared to other northern regions. Lessons should be taken from their post-COVID strategy.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Structural issues in Northern regions need addressing immediately. **The North-Side divide in exclusions was exacerbated by COVID-19 but predates it and larger structural issues need addressing to help reverse this..**
   
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
