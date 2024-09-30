@@ -9,12 +9,7 @@ Insights and recommendations are provided on the following key areas:
 - **Regional Comparisons:** Evaluation of exclusion data based on region
 - **Number of Teaching Assistants per School:**  Assessing the impact that Teaching Assistants have on student exclusion rates
 
-Power BI dashboard used to report and explore trends can be found here [link].
-
-The SQL queries used to inspect and clean the data for this analysis can be found here [link] (https://github.com/Mohammed0192/SQL-UK-analysis/blob/main/susp%20sql.sql) .
-
-Targeted SQL queries regarding various business questions can be found here [link].
-
+The SQL queries used to inspect and clean the data for this analysis can be found here: (https://github.com/Mohammed0192/SQL-UK-analysis/blob/main/susp%20sql.sql) .
 
 
 # Data Structure & Initial Checks
