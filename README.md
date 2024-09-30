@@ -1,4 +1,4 @@
-# Department for Education student exclusion analysis (2016-2023) 
+# Department for Education student exclusion data analysis (2016-2023) 
 The Department for Education has yet commit policies addressing **the alarming growth in UK student suspensions across primary and secondary education**. Since students have returned to in-person education post-2020, schools across the UK have been issuing suspensions and permenant exclusions exponentially. The Department for Education have released census based data on suspensions/exclusions and school workforce size for regions across the UK.
 
 This project analyses the UK education census data from 2016 - 2023 to understand **what key factors dictate differences in exclusion rates across the UK** after the 2019-20 academic year.
