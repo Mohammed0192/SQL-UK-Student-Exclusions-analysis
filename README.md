@@ -19,7 +19,7 @@ Targeted SQL queries regarding various business questions can be found here [lin
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
+The companies main database structure as seen below consists of two tables: table1, table2, with a total row count of over 400,000 records. A description of each table is as follows:
 - **Table 1:** Exclusions data table which includes information on number of permanent exclusions 'perm_excl' and the identity indicators of students (e.g. ethnicity, age and free school meal eligibility) across time and region.
 - **Table 2:** Workforce Data table showing teaching assistant numbers, headcount of teaching assistants and the number of schools across time and region
 
@@ -33,7 +33,7 @@ The companies main database structure as seen below consists of four tables: tab
 Reference: UK map by Region
 
 ### Overview of Findings
-The data reveals** a significant North-South regional divide in the average number of students being excluded** eligble for free school meals (FSM). 
+The data reveals **a significant North-South regional divide in the average number of students being excluded eligble for free school meals (FSM).** 
 
 **The exclusion gap between FSM and non-FSM students widened significantly post-COVID**, with FSM students facing higher exclusion rates, again this gap is wider in Northern England compared to the South.
 
@@ -48,7 +48,10 @@ Further detailed regional analysis will follow this section.
 # Insights Deep Dive
 ### Pre-COVID signs of a North-South Divide:
 
+![Screenshot 2024-09-30 112819](https://github.com/user-attachments/assets/11579a56-8554-4cff-bec6-9db340c4f29d)
+
 * **North-South Divide in exclusion rates started before the pandemic for GCSE students.** From 2016-2019, the number of GCSE students being permanently excluded from school in North England was on the rise, whereas the South saw a gradual decline in exclusion rates leading up to 2019-20, with the South West of England being an exception.
+
 ![Screenshot 2024-09-26 180954](https://github.com/user-attachments/assets/e21609d2-ded3-4798-8383-6213be13609e)
 ![Screenshot 2024-09-26 181032](https://github.com/user-attachments/assets/ed78baca-47b6-4e08-9613-f7003b8306de)
 
@@ -74,33 +77,6 @@ Further detailed regional analysis will follow this section.
 ![Screenshot 2024-09-26 175712](https://github.com/user-attachments/assets/c1be4e3d-f4e8-4ef8-bd3b-e5c5037ba345)
 
 
-### Category 3:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 3]
-
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
-
-
-
 # Recommendations:
 
 Based on the insights, I would recommend policy analysts to consider the following: 
@@ -110,19 +86,13 @@ Based on the insights, I would recommend policy analysts to consider the followi
 * Strategic lessons should be taken from schools in East England. **Schools in East England saw exclusion rates recover quickest post-COVID compared to other northern regions. Lessons should be taken from their post-COVID strategy.**
   
 * Structural issues in Northern regions need addressing immediately. **The North-Side divide in exclusions was exacerbated by COVID-19 but predates it and larger structural issues need addressing to help reverse this..**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+
 
 
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* No data inaccuracies during COVID (e.g. we are assuming that student exclusion data after COVID was collected at the same rate of accuracy throughout the UK) 
   
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* 0.05% of data was missing or non-sensical and were excluded from the analysis
