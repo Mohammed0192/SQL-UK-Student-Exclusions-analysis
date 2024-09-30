@@ -9,6 +9,8 @@ Insights and recommendations are provided on the following key areas:
 - **Regional Comparisons:** Evaluation of exclusion data based on region
 - **Number of Teaching Assistants per School:**  Assessing the impact that Teaching Assistants have on student exclusion rates
 
+The Department for Education census data can be found here: https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england & https://explore-education-statistics.service.gov.uk/find-statistics/school-workforce-in-england
+
 The SQL queries used to inspect and clean the data for this analysis can be found here: (https://github.com/Mohammed0192/SQL-UK-analysis/blob/main/susp%20sql.sql) .
 
 
