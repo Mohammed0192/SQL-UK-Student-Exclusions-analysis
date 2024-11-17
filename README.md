@@ -1,7 +1,5 @@
 # Department for Education Student Exclusion analysis (2016-2023) 
-The Department for Education has yet commit policies addressing **the alarming growth in UK student suspensions across primary and secondary education**. Since students have returned to in-person education post-2020, schools across the UK have been issuing suspensions and permenant exclusions exponentially. The Department for Education have released census based data on suspensions/exclusions and school workforce size for regions across the UK.
-
-This project analyses the UK education census data from 2016 - 2023 to understand **what key factors dictate differences in exclusion rates across the UK** after the 2019-20 academic year.
+The Department for Education has reported an **alarming growth in UK student suspensions across primary and secondary education** since the return to in-person education follwing the COVID-19 lockdown. The Department for Education have released census based data on suspensions/exclusions and school workforce size for regions across the UK. This project analyses the UK education census data from 2016 - 2023 to understand **what key factors dictate differences in exclusion rates across the UK** before and after the 2019-20 academic year indluding students' location, age and socio-economic status. This will also be compared with the number of support staff employed in each area, to assess how influential supporting staff remains factor in keeping students in formal education.
 
 Insights and recommendations are provided on the following key areas: 
 
@@ -17,8 +15,8 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
 # Data Structure & Initial Checks
 
 The companies main database structure as seen below consists of two tables: table1, table2, with a total row count of over 400,000 records. A description of each table is as follows:
-- **Table 1:** Exclusions data table which includes information on number of permanent exclusions 'perm_excl' and the identity indicators of students (e.g. ethnicity, age and free school meal eligibility) across time and region.
-- **Table 2:** Workforce Data table showing teaching assistant numbers, headcount of teaching assistants and the number of schools across time and region
+- **Exclusions data table** which includes information on number of permanent exclusions 'perm_excl' and the identity indicators of students (e.g. ethnicity, age and free school meal eligibility) across time and region.
+- **Workforce Data table** showing teaching assistant numbers, headcount of teaching assistants and the number of schools across time and region
 
 ![History](https://github.com/user-attachments/assets/0a539a1b-491a-4b9e-a0f1-7c4733afd4df)
 
