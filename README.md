@@ -1,10 +1,12 @@
 # Department for Education Student Exclusion analysis (2016-2023) 
-The Department for Education has reported an **alarming growth in UK student suspensions across primary and secondary education** since the return to in-person education follwing the COVID-19 lockdown. The Department for Education have released census based data on suspensions/exclusions and school workforce size for regions across the UK. This project analyses the UK education census data from 2016 - 2023 to understand **what key factors dictate differences in exclusion rates across the UK** before and after the 2019-20 academic year indluding students' location, age and socio-economic status. This will also be compared with the number of support staff employed in each area, to assess how influential supporting staff remains factor in keeping students in formal education.
+The Department for Education has reported an **alarming growth in UK student suspensions across primary and secondary education** since the return to in-person education following the COVID-19 lockdown. The Department for Education have released census based data on suspensions/exclusions and school workforce size for regions across the UK. 
+
+This project analyses the UK education census data from 2016 - 2023 to understand **what key factors dictate differences in exclusion rates across the UK** before and after the 2019-20 academic year including **geographical factors**, **age** and **socio-economic status**. This will be compared with the **number of support staff employed in each area**, to assess how influential a factor supporting staff are in keeping students in formal education, contributing to the policy debate surrounding improving support staff quality in the UK.
 
 Insights and recommendations are provided on the following key areas: 
 
 - **Student Free School Meal Eligibility Analysis:** Analysing the average number of students being excluded based on Free School Meals eligibility as a socio-economic indicator
-- **Regional Comparisons:** Evaluation of exclusion data based on region
+- **Regional Comparisons:** Evaluation of exclusion data based on each UK region
 - **Number of Teaching Assistants per School:**  Assessing the impact that Teaching Assistants have on student exclusion rates
 
 The Department for Education census data can be found here: https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england & https://explore-education-statistics.service.gov.uk/find-statistics/school-workforce-in-england
